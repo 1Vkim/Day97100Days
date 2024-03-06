@@ -1,0 +1,46 @@
+# Wikipedia Content Summarizer
+
+This Python script extracts content from a Wikipedia page about hair loss and uses the OpenAI GPT-3.5 model to generate a summary of the content in no more than three paragraphs.
+
+## Requirements
+
+- Python 3.x
+- `requests` library (`pip install requests`)
+- `beautifulsoup4` library (`pip install beautifulsoup4`)
+- An OpenAI API key
+
+## Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your_username/your_repository.git
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Set up environment variables:
+
+    You need to set up an environment variable named `openaikey` with your OpenAI API key. You can obtain an API key by signing up at https://openai.com.
+
+## Usage
+
+1. Run the script:
+
+    ```bash
+    python wikipedia_content_summarizer.py
+    ```
+
+2. The script will scrape the content from the Wikipedia page about hair loss and generate a summary using the GPT-3.5 model. The summary will be printed to the console.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
